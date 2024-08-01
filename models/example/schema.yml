@@ -3,8 +3,7 @@ version: 2
 models:
   - name: my_first_dbt_model
     description: "A starter dbt model"
-    meta:
-      tags: ['table_tag1', 'table_tag2']
+    tags: ['table_tag1', 'table_tag2']
     columns:
       - name: id
         tags: ['column_tag1', 'column_tag2']
