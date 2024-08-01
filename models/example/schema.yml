@@ -3,10 +3,9 @@ version: 2
 models:
   - name: my_first_dbt_model
     description: "A starter dbt model"
-    meta:
-      tags: ['tag1', 'tag2']
     columns:
       - name: id
+        tags: ['column_tag1', 'column_tag2']
         description: "The primary key for this table"
         tests:
           - unique
