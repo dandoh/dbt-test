@@ -18,3 +18,9 @@ models:
             tests:
                 - unique
                 - not_null
+
+    - name: my_third_model_nhan
+      description: "hello world"
+      columns:
+        - name: x
+          description: "abcde"
