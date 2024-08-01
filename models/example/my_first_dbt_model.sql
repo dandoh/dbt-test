@@ -7,7 +7,7 @@
     Try changing "table" to "view" below
 */
 
-{{ config(materialized='table') }}
+{{ config(materialized='table', tags=['table_tag1', 'table_tag2']) }}
 
 with source_data as (
 
